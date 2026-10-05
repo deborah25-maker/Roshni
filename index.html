@@ -1,0 +1,425 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    >
+
+    <title>For Roshni ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         BACKGROUND MUSIC
+         Starts ONLY after START THE WISHES is clicked
+    ====================================================== -->
+
+    <audio id="backgroundMusic" preload="auto" loop>
+        <source src="assets/music/birthday.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <!-- =====================================================
+         1. HACKED SCREEN
+    ====================================================== -->
+
+    <section id="prankScene" class="screen prank-screen active">
+
+        <div class="hacked-content">
+
+            <div class="warning-icon">⚠</div>
+
+            <div class="hacked-image">
+                <div class="glitch-circle">
+                    <span>!</span>
+                </div>
+            </div>
+
+            <p class="system-text">
+                SYSTEM ALERT
+            </p>
+
+            <h1>
+                YOU HAVE BEEN HACKED
+            </h1>
+
+            <p class="warning-text">
+                Unauthorized activity detected.
+            </p>
+
+            <button
+                id="hackButton"
+                class="main-button danger-button"
+            >
+                CLICK HERE
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         2. PRANK REVEAL
+    ====================================================== -->
+
+    <section id="revealScene" class="screen reveal-screen">
+
+        <div class="reveal-content">
+
+            <div class="heart-icon">
+                ❤️
+            </div>
+
+            <p class="small-heading">
+                JUST KIDDING...
+            </p>
+
+            <h1>
+                IT'S A PRANK! ❤️
+            </h1>
+
+            <p>
+                You haven't been hacked.
+            </p>
+
+            <p>
+                Nothing happened to your phone.
+            </p>
+
+            <p>
+                No money was taken.
+            </p>
+
+            <div class="reveal-divider"></div>
+
+            <p class="surprise-text">
+                But now...
+            </p>
+
+            <h2>
+                Your real birthday surprise begins. ❤️
+            </h2>
+
+            <button
+                id="startButton"
+                class="main-button"
+            >
+                START THE WISHES ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         3. STORY SCENE
+    ====================================================== -->
+
+    <section id="storyScene" class="screen story-screen">
+
+        <div class="story-container">
+
+            <!-- TOP -->
+            <div class="story-top">
+
+                <p id="sceneNumber" class="story-number">
+                    MEMORY 01
+                </p>
+
+                <div class="progress-bar">
+                    <div
+                        id="progressFill"
+                        class="progress-fill"
+                    ></div>
+                </div>
+
+            </div>
+
+
+            <!-- MAIN STORY AREA -->
+            <div class="story-main">
+
+                <!-- PHOTO -->
+                <div class="story-photo">
+
+                    <div class="photo-frame">
+
+                        <img
+                            id="storyImage"
+                            src="assets/photos/2sis1.png"
+                            alt="Roshni memory"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <!-- STORY TEXT -->
+                <div class="story-text">
+
+                    <p
+                        id="storyLabel"
+                        class="story-label"
+                    >
+                        WHEN WE WERE LITTLE
+                    </p>
+
+                    <h1 id="storyTitle">
+                        When We Were Little
+                    </h1>
+
+                    <p id="storyDescription">
+                        Roshni, when I look back now, I realize how much of my life has your name in it.
+                    </p>
+
+                    <p
+                        id="storyQuote"
+                        class="story-quote"
+                    >
+                        Some of the most beautiful memories are the ones we did not know we were making.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- CONTROLS -->
+            <div class="story-controls">
+
+                <button
+                    id="previousButton"
+                    class="control-button"
+                    aria-label="Previous memory"
+                >
+                    ←
+                </button>
+
+                <button
+                    id="musicButton"
+                    class="music-button"
+                >
+                    🔊 Music
+                </button>
+
+                <button
+                    id="nextButton"
+                    class="control-button"
+                    aria-label="Next memory"
+                >
+                    →
+                </button>
+
+            </div>
+
+
+            <p class="swipe-hint">
+                Swipe or use the arrows to continue
+            </p>
+
+        </div>
+
+    </section>
+
+
+<!-- =====================================================
+     4. FINAL BIRTHDAY SCREEN
+====================================================== -->
+
+<section
+    id="birthdayScene"
+    class="screen birthday-screen"
+>
+
+    <div class="birthday-container">
+
+        <!-- DATE -->
+        <p class="birthday-date">
+            6 OCTOBER 2026
+        </p>
+
+        <p class="birthday-date-subtitle">
+            A special day for someone very special ❤️
+        </p>
+
+
+        <!-- HER PHOTO -->
+        <div class="final-photo-frame">
+
+            <img
+                src="assets/photos/image.png"
+                alt="Roshni"
+                class="final-photo"
+            >
+
+        </div>
+
+
+        <!-- BIRTHDAY TITLE -->
+        <p class="birthday-small">
+            WITH LOVE FROM YOUR SISTER
+        </p>
+
+        <h1>
+            Happy 26th Birthday, Roshni ❤️
+        </h1>
+
+
+        <!-- EMOTIONAL CARD -->
+        <div class="emotional-card">
+
+            <div class="card-heart">
+                ♡
+            </div>
+
+
+            <!-- BIBLE VERSE -->
+            <div class="bible-message">
+
+                <p class="bible-heading">
+                    A LITTLE PRAYER FOR YOU ✝️
+                </p>
+
+                <p class="bible-verse">
+                    “May the Lord bless you and keep you;
+                    may the Lord make his face shine on you
+                    and be gracious to you; may the Lord turn
+                    his face toward you and give you peace.”
+                </p>
+
+                <p class="verse-reference">
+                    — Numbers 6:24–26
+                </p>
+
+            </div>
+
+
+            <!-- NEW PERSONAL MESSAGE -->
+            <div class="personal-message">
+
+                <p>
+                    Roshni,
+                </p>
+
+                <p>
+                    There are some people God places in our lives
+                    who become a blessing without even realizing
+                    how much they mean to us.
+                </p>
+
+                <p>
+                    You are one of those people in my life.
+                </p>
+
+                <p>
+                    I may not always say everything that is in my
+                    heart, and sometimes I may not show it enough,
+                    but I hope you always know how grateful I am
+                    that God gave me you as my sister.
+                </p>
+
+                <p>
+                    As you step into another year of your life,
+                    my prayer is that you never lose the beautiful
+                    heart that makes you who you are.
+                </p>
+
+                <p>
+                    May God open doors for you that you never
+                    expected, give you courage for every new step,
+                    and surround you with people who truly value
+                    and respect you.
+                </p>
+
+                <p>
+                    When you have difficult days, I hope you
+                    remember that you never have to face life
+                    feeling alone. There will always be a place
+                    in my heart for you, no matter how far apart
+                    we are.
+                </p>
+
+                <p>
+                    I hope this new year of your life brings you
+                    quiet peace, genuine happiness, beautiful
+                    opportunities, and dreams that slowly become
+                    reality.
+                </p>
+
+                <p>
+                    Most of all, I pray that when you look back
+                    on this year, you will be able to say,
+                    “God was with me through it all.”
+                </p>
+
+                <p>
+                    Thank you for being my sister.
+                    Thank you for being someone I can call family.
+                    And thank you simply for being you.
+                </p>
+
+            </div>
+
+
+            <!-- CLOSING -->
+            <div class="final-closing">
+
+                <p>
+                    Roshni, you are not only a chapter in my childhood.
+                </p>
+
+                <p>
+                    You are part of my whole story.
+                </p>
+
+                <p>
+                    No matter how much life changes, you will always
+                    be my sister, my family, and someone I will always love.
+                </p>
+
+                <h2>
+                    Happy 26th Birthday, Roshni. ❤️
+                </h2>
+
+                <p class="love-line">
+                    I love you more than I probably say.
+                </p>
+
+                <p class="signature">
+                    With all my love,<br>
+                    <strong>Deborah ❤️</strong>
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- WATCH AGAIN -->
+        <button
+            id="replayButton"
+            class="main-button replay-button"
+        >
+            ↻ WATCH AGAIN
+        </button>
+
+    </div>
+
+</section>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
